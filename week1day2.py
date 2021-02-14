@@ -1,8 +1,8 @@
 nama = input ("Enter your name : ")
 umur = input ("Enter your age : ")
 kalimat = 'Your name is {} and You are {} years old'.format(nama,umur)
-print("kalimat") #kalo argumen ga bisa di define dengan print
-print("Your name is not " +  nama + ", I am steven" )
+print(kalimat) #kalo argumen ga bisa di define dengan print
+print("Your name is not " +  nama + ", I am sans" )
 #index operation buat string
 print(" ")
 print("string operation")
