@@ -2,22 +2,27 @@ nama = input ("Enter your name : ")
 umur = input ("Enter your age : ")
 kalimat = 'Your name is {} and You are {} years old'.format(nama,umur)
 print(kalimat) #kalo argumen ga bisa di define dengan print
-print("Your name is not " +  nama + ", I am sans" )
+print("My name is not " +  nama + ", I am sans" )
 #index operation buat string
 print(" ")
 print("string operation")
 print(" ")
 a = "Hello, World !"
 print(a[1]) #ngeprint index pertama yaitu e mulainya dari 0 
-print(a[-1]) #pake minus ngeprint dari belakang jadi tanda seru yg keluar
+print(a[-4]) #pake minus ngeprint dari belakang jadi tanda seru yg keluar
 print(a[2:5]) #ngeprint index ke 2 sampai sebelum 5 yaitu sampai 4 jadi llo 
+print(a[::2]) #ngeprint semua kalimat tapi setiap index yang genap atau kyk 2 terus 4 6 gitu
+print(a[0:5:3]) #ngeprint index 0 sampe  5 tapi yang bilangan element 3
 print(len(a)) #nyari tau panjang string
 print(a[3:]) #ngambil dari baris tiga sampe semuanya
 print(a[:3]) #dari 0 sampai baris sebelum 3 yaitu 2
 print(a[:-1]) #ambil semua sampai baris sebelum terakhir pertama jadi ga pake tanda seru
+print("cara ngeprint backslash \\ harus dua kali") #print blackslash \\ harus dua kali
+print(r"cara ngeprint backslash \ harus dua kali") #print blackslash atau ga depan kasih r (raw string)
+
 
 b = "Artinya Halo, Dunia! "
-c = a + " = " + b + "2"
+c = a + " = " + b + ", begitu"
 print(c)
 
 print(" ")
@@ -70,3 +75,17 @@ print(x[0:2])
 
 for i in x: #variable i mengakses setiap angka diarray, looping buat ngeluarin satu satu angka atau data di arraynya
     print(i)
+
+gg = "Mary had a little lamb Little dumb"
+gg.find("lamb") #buat cari lamb diindex ke berapa outputnya angka pertama indexnya yaitu l diindex keberapa
+print(gg.find("lamb"))
+
+ff = "You are wrong"
+ff.upper() #buat jadiin ke uppercase
+print(ff.upper())
+
+gg.replace("Mary","Barry") #buat ganti kalimat
+print(gg.replace("Mary","Barry"))
+
+print("Michael \n Jackson") #\n buat ngasih tau new line
+print("Michael \t Jackson") #\t buat ngasih tau spasi banyak atau tab
