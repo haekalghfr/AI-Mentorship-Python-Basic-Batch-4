@@ -2,10 +2,10 @@
 x = 7
 y = 3
 z = x/y
-print("hasil bagi {} / {} = {}".format(x,y,z))
+print("hasil bagi {} / {} = {}".format(x,y,z)) #hasil jadinya float type of data
 
 z1 = x//y
-print("hasil bagi {} / {} = {}".format(x,y,z1))
+print("hasil bagi {} / {} = {}".format(x,y,z1)) #hasil jadinya integer type of data dibuletin ke bawah
 
 z2 = x % y 
 print("hasil modulus {} / {} = {}".format(x,y,z2)) #modulus itu sisa bagi
