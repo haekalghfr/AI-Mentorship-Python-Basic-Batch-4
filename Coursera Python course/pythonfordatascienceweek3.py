@@ -82,7 +82,7 @@ print(' ')
 
 tanggal2 = [1982,1980,1973,2000]
 
-n=0;
+n=0
 tahun=0
 while(tahun!=1973): #loop bakal muter terus sampe nemu kondisi yang gasesuai syarat yaitu tahun ga boleh = 1973
     tahun=tanggal2[n]
@@ -91,3 +91,4 @@ while(tahun!=1973): #loop bakal muter terus sampe nemu kondisi yang gasesuai sya
     
     
 print("it took ", n ,"repetitions to get out of loop")
+
