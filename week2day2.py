@@ -89,8 +89,8 @@ print("Function Return Value Operation")
 print(" ")
 
 def tambah(n,m):
-    tambah = n + m
-    return tambah
+    tambah = n + m + 5
+    return tambah #return berarti hasil tambah ditampung musti ketik pring buat dilihat hasilnya
 
 hasil = tambah(2,9)
 print(hasil)

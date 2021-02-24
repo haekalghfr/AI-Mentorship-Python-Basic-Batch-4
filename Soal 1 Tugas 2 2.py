@@ -1,0 +1,36 @@
+print("Selamat Datang!")
+
+print("---Menu--- \n 1. Daftar Kontak \n 2. Tambah Kontak \n 3. Keluar")
+
+print(" ")
+
+a = input("Pilih Menu: ")
+
+nama_kontak = []
+nomor_kontak = []
+
+
+while True:
+    if a == "Keluar" or a == "3":
+        print(" ")
+        print("Program Selesai, Sampai Jumpa!")
+        break
+    elif a == "Daftar Kontak" or a == "1":
+        if len(nama_kontak) >= 1:
+            for ii in range(len(nama_kontak)):
+                print("Nama : {} \nNomor : {} \n".format(nama_kontak[ii], nomor_kontak[ii]))
+        else: 
+            print("Daftar Kontak Kosong")
+        print(" ")
+    elif a == "Tambah Kontak" or a == "2":
+        count = int(input("Berapa Kontak Baru Yang Diinput: "))
+        for i in range(count):
+            print("Data ke {}".format(i+1))
+            nama = input("Nama : ")
+            nomor = int(input("Umur : "))
+            nama_kontak.append(nama)
+            nomor_kontak.append(nomor)
+            print(" ")
+    else:
+        print("Menu Tidak Tersedia")
+    a = input("Pilih Menu yang lain: ")
