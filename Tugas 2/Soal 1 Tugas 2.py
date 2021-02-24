@@ -12,8 +12,8 @@ nomor_kontak = []
 
 while True:
     if a == "Keluar" or a == "3":
-        print(" ")
         print("Program Selesai, Sampai Jumpa!")
+        print(" ")
         break
     elif a == "Daftar Kontak" or a == "1":
         if len(nama_kontak) >= 1: #misalnya for duluan baru if, else nya ga berfungsi karena statement for nya cuman ke define di if awalnya aja tapi ga ke else
