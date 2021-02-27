@@ -17,7 +17,7 @@ while True:
         break
     elif a == "Daftar Kontak" or a == "1":
         if len(nama_kontak) >= 1: #misalnya for duluan baru if, else nya ga berfungsi karena statement for nya cuman ke define di if awalnya aja tapi ga ke else
-            for ii in range(len(nama_kontak)):
+            for ii in range(len(nama_kontak)): #jadi logicnya itu dikasi kondisi dulu jika len nama kontak lebih dari satu maka ngelooping
                 print("Nama : {} \nNomor : {} \n".format(nama_kontak[ii], nomor_kontak[ii]))
         else:
             print("Daftar Kontak Kosong")
