@@ -47,3 +47,8 @@ print(len(emp_1)) #kalo gaada dunder len ga bisa diitung
 
 # __xx__ --> double underscore itu namanya dunder
 #ada banyak function yang pake dunder, dunder itu special function
+
+#jadi misalnya kita pake function 1+2 dibackground library nya
+#function yang ditulis itu int.__add__(1, 2)
+#kalo misalnya kita pake len(test)
+#dibackground standard librarynya itu 'test'.__len__()

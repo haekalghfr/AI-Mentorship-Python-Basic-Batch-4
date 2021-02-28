@@ -90,7 +90,6 @@ print(" ")
 
 def tambah(n,m):
     tambah = n + m + 5
-    return tambah #return berarti hasil tambah ditampung musti ketik pring buat dilihat hasilnya
+    return "Hasil {}".format(tambah) #return berarti hasil tambah ditampung musti ketik pring buat dilihat hasilnya
 
-hasil = tambah(2,9)
-print(hasil)
+print(tambah(2,9))

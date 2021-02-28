@@ -130,4 +130,3 @@ print(album_set1.union(album_set2)) #nampilin semua data dialbum set1 dan 2
 print(" ")
 print(album_set_3.issubset(album_set1)) #ngecheck kalo album set 3 itu subset album set 1
 
-print(len(List2[0]))
