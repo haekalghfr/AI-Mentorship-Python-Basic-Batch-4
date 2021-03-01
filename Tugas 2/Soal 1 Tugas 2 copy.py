@@ -19,6 +19,7 @@ def tambah_kontak(nama, nomor):
 
 def tampilkan_kontak ():
     for i in daftar_kontak:
+        print('===Daftar Kontak===')
         print('Nama : ' + i["nama"])
         print('Nomor Telpon : ' + i["nomor"])
         return daftar_kontak
