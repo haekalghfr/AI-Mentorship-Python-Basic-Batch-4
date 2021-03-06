@@ -32,4 +32,7 @@ with smtplib.SMTP('smtp.gmail.com', 587) as smtp: #karena kita pake gmail
 
 
 
-
+#references
+#https://www.kite.com/python/answers/how-to-remove-newline-character-from-a-list-in-python#:~:text=Use%20str.,well%20as%20newline%20characters%20removed.
+#automate the boring stuff with python AL SWEIGART
+#https://www.youtube.com/watch?v=JRCJ6RtE3xU&ab_channel=CoreySchafer
