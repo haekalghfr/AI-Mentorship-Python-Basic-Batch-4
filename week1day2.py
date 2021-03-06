@@ -165,6 +165,7 @@ release_year_dict = {"Thriller":"1982", "Back in Black":"1980", \
                     "Saturday Night Fever":"1977", "Rumours":"1977"} #ini dictionary
                     #bisa contain tuple list sebagai value didalem dictionary
 print(release_year_dict['Thriller'])  #buat nyari tau value nya thriller yaitu 19982
+# print(release_year_dict[1]) ga bisa manggil kyk gini kalo dictionary
 print(release_year_dict.keys())  #ngeprint semua keys, thriller back in black, dsb.
 print(" ")
 print(release_year_dict.values())  #ngeprint semua values kayak 1982, 1980 dsb

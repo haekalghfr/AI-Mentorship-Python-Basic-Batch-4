@@ -7,7 +7,7 @@ print(" ")
 a = input("Pilih Menu: ")
 
 daftar_kontak = []
-# nomor_kontak = []
+
 
 def tambah_kontak(nama, nomor):
     b = {
@@ -15,13 +15,13 @@ def tambah_kontak(nama, nomor):
         "nomor" : nomor
         }
     daftar_kontak.append(b)
-    # nomor_kontak.append(b)
+    return b
 
 def tampilkan_kontak ():
     for i in daftar_kontak:
         print('===Daftar Kontak===')
-        print('Nama : ' + i["nama"])
-        print('Nomor Telpon : ' + i["nomor"])
+        print('Nama : ' + i["nama"]) #panggil key nya buat ngeluarin valuenya
+        print('Nomor Telpon : ' + i["nomor"]) #ini juga manggil keynya buat ngeluarin valuenya
         return daftar_kontak
 
 
@@ -38,7 +38,7 @@ while True:
         print(" ")
     elif a == "Tambah Kontak" or a == "2":
             nama = input("Nama : ")
-            nomor = (input("Umur : "))
+            nomor = input("Umur : ")
             kontak = tambah_kontak(nama, nomor)
             daftar_kontak.append(kontak)
             print('Kontak berhasil ditambahkan')
